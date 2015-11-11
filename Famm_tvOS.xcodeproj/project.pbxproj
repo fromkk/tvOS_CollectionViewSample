@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F181EA81BF30CF600FD6DF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F181EA71BF30CF600FD6DF4 /* HomeViewController.swift */; };
+		4F181EB01BF30F5E00FD6DF4 /* IMG_0194.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F181EAB1BF30F5E00FD6DF4 /* IMG_0194.jpg */; };
+		4F181EB11BF30F5E00FD6DF4 /* IMG_0195.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F181EAC1BF30F5E00FD6DF4 /* IMG_0195.jpg */; };
+		4F181EB21BF30F5E00FD6DF4 /* IMG_0198.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F181EAD1BF30F5E00FD6DF4 /* IMG_0198.jpg */; };
+		4F181EB31BF30F5E00FD6DF4 /* IMG_0199.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F181EAE1BF30F5E00FD6DF4 /* IMG_0199.jpg */; };
+		4F181EB41BF30F5E00FD6DF4 /* IMG_0200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F181EAF1BF30F5E00FD6DF4 /* IMG_0200.jpg */; };
 		4F5276B01BF2CDCF00D2E043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5276AF1BF2CDCF00D2E043 /* AppDelegate.swift */; };
 		4F5276B21BF2CDCF00D2E043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5276B11BF2CDCF00D2E043 /* ViewController.swift */; };
 		4F5276B51BF2CDCF00D2E043 /* Famm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F5276B31BF2CDCF00D2E043 /* Famm.xcdatamodeld */; };
@@ -14,6 +20,7 @@
 		4F5276BA1BF2CDCF00D2E043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5276B91BF2CDCF00D2E043 /* Assets.xcassets */; };
 		4F5276C51BF2CDCF00D2E043 /* FammTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5276C41BF2CDCF00D2E043 /* FammTests.swift */; };
 		4F5276D01BF2CDCF00D2E043 /* FammUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5276CF1BF2CDCF00D2E043 /* FammUITests.swift */; };
+		4FD6342E1BF2EB2900A1163D /* UIColor_Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6342D1BF2EB2900A1163D /* UIColor_Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +41,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F5276AC1BF2CDCF00D2E043 /* Famm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Famm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F181EA11BF30ABB00FD6DF4 /* Famm_tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Famm_tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F181EA71BF30CF600FD6DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F181EAB1BF30F5E00FD6DF4 /* IMG_0194.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0194.jpg; sourceTree = "<group>"; };
+		4F181EAC1BF30F5E00FD6DF4 /* IMG_0195.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0195.jpg; sourceTree = "<group>"; };
+		4F181EAD1BF30F5E00FD6DF4 /* IMG_0198.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0198.jpg; sourceTree = "<group>"; };
+		4F181EAE1BF30F5E00FD6DF4 /* IMG_0199.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0199.jpg; sourceTree = "<group>"; };
+		4F181EAF1BF30F5E00FD6DF4 /* IMG_0200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0200.jpg; sourceTree = "<group>"; };
+		4F5276AC1BF2CDCF00D2E043 /* Famm_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Famm_tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5276AF1BF2CDCF00D2E043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F5276B11BF2CDCF00D2E043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F5276B41BF2CDCF00D2E043 /* Famm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Famm.xcdatamodel; sourceTree = "<group>"; };
 		4F5276B71BF2CDCF00D2E043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F5276B91BF2CDCF00D2E043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F5276BB1BF2CDCF00D2E043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F5276C01BF2CDCF00D2E043 /* FammTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FammTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5276C01BF2CDCF00D2E043 /* Famm_tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Famm_tvOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5276C41BF2CDCF00D2E043 /* FammTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FammTests.swift; sourceTree = "<group>"; };
 		4F5276C61BF2CDCF00D2E043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F5276CB1BF2CDCF00D2E043 /* FammUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FammUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5276CB1BF2CDCF00D2E043 /* Famm_tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Famm_tvOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5276CF1BF2CDCF00D2E043 /* FammUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FammUITests.swift; sourceTree = "<group>"; };
 		4F5276D11BF2CDCF00D2E043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD6342D1BF2EB2900A1163D /* UIColor_Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Hex.swift; sourceTree = "<group>"; };
+		4FD6342F1BF2F09200A1163D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		4FD634311BF2F09700A1163D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +91,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F181EA91BF30F0800FD6DF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F181EAA1BF30F5100FD6DF4 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F181EAA1BF30F5100FD6DF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4F181EAB1BF30F5E00FD6DF4 /* IMG_0194.jpg */,
+				4F181EAC1BF30F5E00FD6DF4 /* IMG_0195.jpg */,
+				4F181EAD1BF30F5E00FD6DF4 /* IMG_0198.jpg */,
+				4F181EAE1BF30F5E00FD6DF4 /* IMG_0199.jpg */,
+				4F181EAF1BF30F5E00FD6DF4 /* IMG_0200.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		4F5276A31BF2CDCF00D2E043 = {
 			isa = PBXGroup;
 			children = (
@@ -87,9 +124,9 @@
 		4F5276AD1BF2CDCF00D2E043 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F5276AC1BF2CDCF00D2E043 /* Famm.app */,
-				4F5276C01BF2CDCF00D2E043 /* FammTests.xctest */,
-				4F5276CB1BF2CDCF00D2E043 /* FammUITests.xctest */,
+				4F5276AC1BF2CDCF00D2E043 /* Famm_tvOS.app */,
+				4F5276C01BF2CDCF00D2E043 /* Famm_tvOS.xctest */,
+				4F5276CB1BF2CDCF00D2E043 /* Famm_tvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +134,16 @@
 		4F5276AE1BF2CDCF00D2E043 /* Famm */ = {
 			isa = PBXGroup;
 			children = (
+				4F181EA91BF30F0800FD6DF4 /* Resources */,
+				4FD634281BF2EA6900A1163D /* Libraries */,
 				4F5276AF1BF2CDCF00D2E043 /* AppDelegate.swift */,
 				4F5276B11BF2CDCF00D2E043 /* ViewController.swift */,
+				4F181EA71BF30CF600FD6DF4 /* HomeViewController.swift */,
 				4F5276B61BF2CDCF00D2E043 /* Main.storyboard */,
 				4F5276B91BF2CDCF00D2E043 /* Assets.xcassets */,
 				4F5276BB1BF2CDCF00D2E043 /* Info.plist */,
 				4F5276B31BF2CDCF00D2E043 /* Famm.xcdatamodeld */,
+				4F181EA11BF30ABB00FD6DF4 /* Famm_tvOS-Bridging-Header.h */,
 			);
 			path = Famm;
 			sourceTree = "<group>";
@@ -125,12 +166,20 @@
 			path = FammUITests;
 			sourceTree = "<group>";
 		};
+		4FD634281BF2EA6900A1163D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6342D1BF2EB2900A1163D /* UIColor_Hex.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F5276AB1BF2CDCF00D2E043 /* Famm */ = {
+		4F5276AB1BF2CDCF00D2E043 /* Famm_tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5276D41BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm" */;
+			buildConfigurationList = 4F5276D41BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm_tvOS" */;
 			buildPhases = (
 				4F5276A81BF2CDCF00D2E043 /* Sources */,
 				4F5276A91BF2CDCF00D2E043 /* Frameworks */,
@@ -140,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = Famm;
+			name = Famm_tvOS;
 			productName = Famm;
-			productReference = 4F5276AC1BF2CDCF00D2E043 /* Famm.app */;
+			productReference = 4F5276AC1BF2CDCF00D2E043 /* Famm_tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F5276BF1BF2CDCF00D2E043 /* FammTests */ = {
+		4F5276BF1BF2CDCF00D2E043 /* Famm_tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5276D71BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "FammTests" */;
+			buildConfigurationList = 4F5276D71BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm_tvOSTests" */;
 			buildPhases = (
 				4F5276BC1BF2CDCF00D2E043 /* Sources */,
 				4F5276BD1BF2CDCF00D2E043 /* Frameworks */,
@@ -158,14 +207,14 @@
 			dependencies = (
 				4F5276C21BF2CDCF00D2E043 /* PBXTargetDependency */,
 			);
-			name = FammTests;
+			name = Famm_tvOSTests;
 			productName = FammTests;
-			productReference = 4F5276C01BF2CDCF00D2E043 /* FammTests.xctest */;
+			productReference = 4F5276C01BF2CDCF00D2E043 /* Famm_tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4F5276CA1BF2CDCF00D2E043 /* FammUITests */ = {
+		4F5276CA1BF2CDCF00D2E043 /* Famm_tvOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5276DA1BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "FammUITests" */;
+			buildConfigurationList = 4F5276DA1BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm_tvOSUITests" */;
 			buildPhases = (
 				4F5276C71BF2CDCF00D2E043 /* Sources */,
 				4F5276C81BF2CDCF00D2E043 /* Frameworks */,
@@ -176,9 +225,9 @@
 			dependencies = (
 				4F5276CD1BF2CDCF00D2E043 /* PBXTargetDependency */,
 			);
-			name = FammUITests;
+			name = Famm_tvOSUITests;
 			productName = FammUITests;
-			productReference = 4F5276CB1BF2CDCF00D2E043 /* FammUITests.xctest */;
+			productReference = 4F5276CB1BF2CDCF00D2E043 /* Famm_tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F5276A71BF2CDCF00D2E043 /* Build configuration list for PBXProject "Famm" */;
+			buildConfigurationList = 4F5276A71BF2CDCF00D2E043 /* Build configuration list for PBXProject "Famm_tvOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F5276AB1BF2CDCF00D2E043 /* Famm */,
-				4F5276BF1BF2CDCF00D2E043 /* FammTests */,
-				4F5276CA1BF2CDCF00D2E043 /* FammUITests */,
+				4F5276AB1BF2CDCF00D2E043 /* Famm_tvOS */,
+				4F5276BF1BF2CDCF00D2E043 /* Famm_tvOSTests */,
+				4F5276CA1BF2CDCF00D2E043 /* Famm_tvOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,8 +278,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F181EB41BF30F5E00FD6DF4 /* IMG_0200.jpg in Resources */,
+				4F181EB21BF30F5E00FD6DF4 /* IMG_0198.jpg in Resources */,
+				4F181EB11BF30F5E00FD6DF4 /* IMG_0195.jpg in Resources */,
+				4F181EB01BF30F5E00FD6DF4 /* IMG_0194.jpg in Resources */,
 				4F5276BA1BF2CDCF00D2E043 /* Assets.xcassets in Resources */,
 				4F5276B81BF2CDCF00D2E043 /* Main.storyboard in Resources */,
+				4F181EB31BF30F5E00FD6DF4 /* IMG_0199.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F181EA81BF30CF600FD6DF4 /* HomeViewController.swift in Sources */,
 				4F5276B21BF2CDCF00D2E043 /* ViewController.swift in Sources */,
+				4FD6342E1BF2EB2900A1163D /* UIColor_Hex.swift in Sources */,
 				4F5276B01BF2CDCF00D2E043 /* AppDelegate.swift in Sources */,
 				4F5276B51BF2CDCF00D2E043 /* Famm.xcdatamodeld in Sources */,
 			);
@@ -282,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		4F5276C21BF2CDCF00D2E043 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F5276AB1BF2CDCF00D2E043 /* Famm */;
+			target = 4F5276AB1BF2CDCF00D2E043 /* Famm_tvOS */;
 			targetProxy = 4F5276C11BF2CDCF00D2E043 /* PBXContainerItemProxy */;
 		};
 		4F5276CD1BF2CDCF00D2E043 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F5276AB1BF2CDCF00D2E043 /* Famm */;
+			target = 4F5276AB1BF2CDCF00D2E043 /* Famm_tvOS */;
 			targetProxy = 4F5276CC1BF2CDCF00D2E043 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -297,6 +353,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				4F5276B71BF2CDCF00D2E043 /* Base */,
+				4FD6342F1BF2F09200A1163D /* ja */,
+				4FD634311BF2F09700A1163D /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -390,10 +448,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Famm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Famm";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FammtvOS";
+				PRODUCT_NAME = Famm_tvOS;
+				SWIFT_OBJC_BRIDGING_HEADER = "Famm/Famm_tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -402,10 +463,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Famm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.Famm";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FammtvOS";
+				PRODUCT_NAME = Famm_tvOS;
+				SWIFT_OBJC_BRIDGING_HEADER = "Famm/Famm_tvOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -416,8 +479,8 @@
 				INFOPLIST_FILE = FammTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FammTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Famm.app/Famm";
+				PRODUCT_NAME = Famm_tvOS;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Famm_tvOS.app/Famm_tvOS";
 			};
 			name = Debug;
 		};
@@ -428,8 +491,8 @@
 				INFOPLIST_FILE = FammTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FammTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Famm.app/Famm";
+				PRODUCT_NAME = Famm_tvOS;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Famm_tvOS.app/Famm_tvOS";
 			};
 			name = Release;
 		};
@@ -439,7 +502,7 @@
 				INFOPLIST_FILE = FammUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FammUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Famm_tvOS;
 				TEST_TARGET_NAME = Famm;
 				USES_XCTRUNNER = YES;
 			};
@@ -451,7 +514,7 @@
 				INFOPLIST_FILE = FammUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FammUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Famm_tvOS;
 				TEST_TARGET_NAME = Famm;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F5276A71BF2CDCF00D2E043 /* Build configuration list for PBXProject "Famm" */ = {
+		4F5276A71BF2CDCF00D2E043 /* Build configuration list for PBXProject "Famm_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F5276D21BF2CDCF00D2E043 /* Debug */,
@@ -469,29 +532,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F5276D41BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm" */ = {
+		4F5276D41BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F5276D51BF2CDCF00D2E043 /* Debug */,
 				4F5276D61BF2CDCF00D2E043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4F5276D71BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "FammTests" */ = {
+		4F5276D71BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm_tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F5276D81BF2CDCF00D2E043 /* Debug */,
 				4F5276D91BF2CDCF00D2E043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4F5276DA1BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "FammUITests" */ = {
+		4F5276DA1BF2CDCF00D2E043 /* Build configuration list for PBXNativeTarget "Famm_tvOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F5276DB1BF2CDCF00D2E043 /* Debug */,
 				4F5276DC1BF2CDCF00D2E043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "password"; ObjectID = "7aH-VJ-LSd"; */
+"7aH-VJ-LSd.text" = "パスワード";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "qJ1-Mq-xa7"; */
+"qJ1-Mq-xa7.text" = "メールアドレス";
+
+/* Class = "UIButton"; normalTitle = "login"; ObjectID = "tH2-Xd-QVG"; */
+"tH2-Xd-QVG.normalTitle" = "ログイン";

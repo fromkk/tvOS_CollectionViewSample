@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Famm.xcodeproj">
+      location = "self:/Users/k-ueoka/Documents/Timers/tvOS/Famm/Famm_tvOS.xcodeproj">
    </FileRef>
 </Workspace>
